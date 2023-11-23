@@ -493,7 +493,8 @@ li.slide.active {
   /* background-color: white; */
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  gap:0.5rem;
   /* column-gap: var(--gap); */
   /* padding: 0.6rem; */
   cursor: pointer;
@@ -505,6 +506,7 @@ li.slide.active {
   outline: none;
   color: white;
   background-color: inherit;
+  transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
 }
 
 .bx {
@@ -518,13 +520,15 @@ li.slide.active {
   border-radius: var(--radius);
   margin-top: 0.3rem;
   background: white;
-  transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.5, 1);
 
   transform: translateY(0.5rem);
   visibility: hidden;
   opacity: 0;
   z-index: 4;
 }
+
+
 
 .show {
   transform: translateY(0rem);
@@ -555,7 +559,8 @@ li.slide.active {
   /* background-color: white; */
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  gap:0.5rem;
   /* column-gap: var(--gap); */
   /* padding: 0.6rem; */
   cursor: pointer;
@@ -580,7 +585,7 @@ li.slide.active {
   border-radius: var(--radius);
   margin-top: 0.3rem;
   background: white;
-  transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.5, 1);
 
   transform: translateY(0.5rem);
   visibility: hidden;
